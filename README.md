@@ -4,12 +4,18 @@ The Random Password Generator is a Python-based application developed to generat
 
 This project demonstrates the practical implementation of core Python programming concepts such as loops, conditional statements, exception handling, strings, modules, and randomization techniques.
 
-Objectives
+Objectives:
+
+
 To generate random and secure passwords.
 To allow users to customize password composition.
 To evaluate password strength based on length and character diversity.
 To apply fundamental Python concepts in a real-world application.
-Features
+
+
+Features:
+
+
 User-defined password length.
 Minimum password length validation.
 Optional inclusion of:
@@ -41,9 +47,11 @@ Provide an option to generate another password.
 Collect user feedback through a rating system.
 Password Strength Criteria
 
+
 The strength of the password is determined using the following parameters:
 
 Criteria	Score
+
 Password length ≥ 8	+1
 Password length ≥ 12	+2
 Includes uppercase letters	+1
@@ -54,7 +62,11 @@ Total Score	Strength
 0 – 2	Weak
 3 – 4	Moderate
 5 or more	Strong
-Sample Output
+
+
+Sample Output:
+
+
 ---------WELCOME TO THE PASSWORD GENERATOR APP--------
 
 ....SETTINGS FOR PASSWORD GENERATOR.....
@@ -66,8 +78,11 @@ Include numbers? yes
 Include special characters/symbols? yes
 
 THE GENERATED PASSWORD BY THE SYSTEM: A7@kLm#9Pq2!
-THE STRENGTH OF THE PASSWORD GENERATED IS: STRONG
-Applications
+THE STRENGTH OF THE PASSWORD GENERATED IS: STRONG 
+
+
+Applications:
+
 Creating secure passwords for online accounts.
 Improving awareness of password security.
 Learning Python programming concepts through practical implementation.
